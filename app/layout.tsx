@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import { siteContent } from '@/lib/content';
 import './globals.css';
 
+const productionHost = process.env.VERCEL_PROJECT_PRODUCTION_URL;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(productionHost ? `https://${productionHost}` : 'http://localhost:3000'),
   title: {
     default: siteContent.metadata.title,
     template: siteContent.metadata.titleTemplate,
