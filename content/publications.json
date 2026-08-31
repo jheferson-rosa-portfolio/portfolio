@@ -1,15 +1,47 @@
 {
   "eyebrow": "Publicações",
-  "heading": "Livros como objetos de linguagem.",
-  "intro": "Um arquivo visual de projetos autorais e editoriais. Aqui, escrita, edição e forma gráfica ocupam o mesmo campo de trabalho.",
+  "heading": "acervo autoral (edição e conteúdo)",
+  "intro": "edições impressas e digitais de projetos editoriais",
   "items": [
-    { "title": "Trote", "meta": "Livro autoral · poesia", "image": { "src": "/images/publications/trote.jpg", "alt": "Capa de Trote" }, "status": "published", "displayOrder": 1 },
-    { "title": "Dança comigo enquanto eles dormem", "meta": "Livro autoral · poesia", "image": { "src": "/images/publications/danca.jpg", "alt": "Capa de Dança comigo enquanto eles dormem" }, "status": "published", "displayOrder": 2 },
-    { "title": "Revista Cauim nº 1", "meta": "Editoração e design de capa", "image": { "src": "/images/publications/cauim.jpg", "alt": "Capa da Revista Cauim nº 1" }, "status": "published", "displayOrder": 3 },
-    { "title": "Fofocas do inconsciente", "meta": "Lola Frita · publicação independente", "image": { "src": "/projects/lola-frita/catalog/08.jpg", "alt": "Fofocas do inconsciente" }, "status": "published", "displayOrder": 4 },
-    { "title": "Potencial para significativos desastres", "meta": "Lola Frita · publicação independente", "image": { "src": "/projects/lola-frita/catalog/01.jpg", "alt": "Potencial para significativos desastres" }, "status": "published", "displayOrder": 5 },
-    { "title": "Meu corpo é um mapa de desobediência", "meta": "Lola Frita · publicação independente", "image": { "src": "/projects/lola-frita/catalog/05.jpg", "alt": "Meu corpo é um mapa de desobediência" }, "status": "published", "displayOrder": 6 },
-    { "title": "Chame por mim e responderei coisas ocultas", "meta": "Lola Frita · publicação independente", "image": { "src": "/projects/lola-frita/catalog/09.jpg", "alt": "Chame por mim e responderei coisas ocultas" }, "status": "published", "displayOrder": 7 },
-    { "title": "Small English Horse", "meta": "Lola Frita · publicação independente", "image": { "src": "/projects/lola-frita/catalog/10.jpg", "alt": "Small English Horse" }, "status": "published", "displayOrder": 8 }
+    {
+      "title": "Kuarup",
+      "meta": "Livro autoral · poesia",
+      "image": {
+        "src": "/images/publications/whatsapp-image-2026-08-31-at-180939.jpeg",
+        "alt": "Kuarup"
+      },
+      "status": "published",
+      "displayOrder": 1
+    },
+    {
+      "title": "Trote",
+      "meta": "Livro autoral · poesia",
+      "image": {
+        "src": "/images/publications/trote.jpg",
+        "alt": "Capa de Trote"
+      },
+      "status": "published",
+      "displayOrder": 2
+    },
+    {
+      "title": "Dança comigo enquanto eles dormem",
+      "meta": "Livro autoral · poesia",
+      "image": {
+        "src": "/images/publications/danca.jpg",
+        "alt": "Capa de Dança comigo enquanto eles dormem"
+      },
+      "status": "published",
+      "displayOrder": 3
+    },
+    {
+      "title": "Revista Cauim nº 1",
+      "meta": "Editoração e design de capa",
+      "image": {
+        "src": "/images/publications/cauim.jpg",
+        "alt": "Capa da Revista Cauim nº 1"
+      },
+      "status": "published",
+      "displayOrder": 4
+    }
   ]
 }
