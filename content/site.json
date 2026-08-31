@@ -1,19 +1,19 @@
 {
   "metadata": {
-    "title": "Jheferson Rosa — Linguagem, narrativa e forma",
-    "titleTemplate": "%s — Jheferson Rosa",
-    "description": "Portfólio de Jheferson Rosa, designer multidisciplinar que articula linguagem, narrativa e forma em projetos de branding, editorial, audiovisual e experiências digitais.",
-    "socialDescription": "Design multidisciplinar entre identidade, edição, audiovisual e experiência.",
+    "title": "jheferson rosa — linguagem, narrativa e forma",
+    "titleTemplate": "%s — jheferson rosa",
+    "description": "portfólio de jheferson rosa, designer multidisciplinar que articula linguagem, narrativa e forma em projetos de branding, editorial, audiovisual e experiências digitais",
+    "socialDescription": "design multidisciplinar com identidade, direção e experiência",
     "socialImage": "/og-card.png",
-    "socialImageAlt": "Linguagem, narrativa e forma — Jheferson Rosa"
+    "socialImageAlt": "linguagem, narrativa e forma — jheferson rosa"
   },
   "brand": {
-    "name": "Jheferson Rosa",
-    "descriptor": "Designer multidisciplinar",
+    "name": "jheferson rosa",
+    "descriptor": "designer multidisciplinar",
     "axis": [
-      "Linguagem",
-      "Narrativa",
-      "Forma"
+      "linguagem",
+      "narrativa",
+      "forma"
     ]
   },
   "navigation": [
@@ -35,22 +35,22 @@
     }
   ],
   "home": {
-    "headline": "design & direção\neditorial & gráfico\n& audiovisual",
-    "intro": "Jheferson Rosa é designer multidisciplinar. Articula repertório editorial, direção criativa e pensamento narrativo em diferentes suportes.",
-    "selectedWorkLabel": "Selected Work",
-    "selectedWorkHeading": "Projetos que atravessam identidade, edição, audiovisual e experiência.",
-    "selectedWorkLink": "Ver índice completo →",
-    "practiceLabel": "Prática",
-    "practiceText": "Entre a palavra e a imagem, cada projeto encontra a forma que sua história pede."
+    "headline": "design\nsoluções editoriais, gráficas \naudiovisuais e instrucionais",
+    "intro": "sou um designer multidisciplinar que articula repertório editorial, direção criativa e pensamento narrativo em diferentes suportes",
+    "selectedWorkLabel": "rosa dsg",
+    "selectedWorkHeading": "projetos selecionados",
+    "selectedWorkLink": "ver índice completo →",
+    "practiceLabel": "end.",
+    "practiceText": "\"vou fazê-los parar para ver o que eu vejo das flores\"\n- Georgia O'Keeffe"
   },
   "work": {
-    "eyebrow": "Selected Work · 2019—26",
-    "heading": "Identidades que organizam histórias.",
-    "intro": "Uma seleção de projetos em que direção criativa, repertório editorial e produção audiovisual trabalham como partes de uma mesma linguagem."
+    "eyebrow": "rosa dsg · 2019—26",
+    "heading": "projetos selecionados",
+    "intro": "branding | editorial | graphic | audiovisual"
   },
   "about": {
     "eyebrow": "Sobre",
-    "heading": "Palavra, imagem e direção.",
+    "heading": "designer e poeta",
     "portrait": {
       "src": "/images/about/portrait.jpeg",
       "alt": "Jheferson Rosa em leitura pública"
