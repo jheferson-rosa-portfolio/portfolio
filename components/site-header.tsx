@@ -1,12 +1,14 @@
 import Link from 'next/link';
+import { siteContent } from '@/lib/content';
 
 export function SiteHeader() {
+  const { brand, navigation } = siteContent;
   return (
     <header className="site-header page-shell">
-      <Link className="brand" href="/" aria-label="Jheferson Rosa — início">Jheferson Rosa</Link>
-      <span className="axis-mini">linguagem → narrativa → forma</span>
+      <Link className="brand" href="/" aria-label={`${brand.name} — início`}>{brand.name}</Link>
+      <span className="axis-mini">{brand.axis.join(' → ').toLowerCase()}</span>
       <nav className="nav" aria-label="Navegação principal">
-        <Link href="/work">Work</Link><Link href="/publications">Publicações</Link><Link href="/about">Sobre</Link><Link href="/contact">Contato</Link>
+        {navigation.map((item) => <Link href={item.href} key={item.href}>{item.label}</Link>)}
       </nav>
     </header>
   );

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://portfolio.local/schemas/project.schema.json",
+  "title": "Projeto do portfólio",
+  "type": "object",
+  "required": ["title", "slug", "year", "category", "role", "summary", "cover", "gallery", "videos", "displayOrder", "status", "featuredOnHome"],
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "year": { "type": "string" },
+    "category": { "type": "string" },
+    "role": { "type": "string" },
+    "support": { "type": "string" },
+    "summary": { "type": "string" },
+    "cover": { "$ref": "#/$defs/image" },
+    "hero": {
+      "allOf": [
+        { "$ref": "#/$defs/image" },
+        { "type": "object", "properties": { "fit": { "enum": ["cover", "contain"] } } }
+      ]
+    },
+    "gallery": {
+      "type": "object",
+      "required": ["label", "heading", "items"],
+      "properties": {
+        "label": { "type": "string" },
+        "heading": { "type": "string" },
+        "items": { "type": "array", "items": { "$ref": "#/$defs/image" } }
+      }
+    },
+    "videos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "layout", "title", "src"],
+        "properties": {
+          "kind": { "enum": ["embed", "file"] },
+          "layout": { "enum": ["featured", "grid", "stage"] },
+          "title": { "type": "string" },
+          "src": { "type": "string" },
+          "label": { "type": "string" },
+          "heading": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "collections": { "type": "array" },
+    "displayOrder": { "type": "integer", "minimum": 0 },
+    "status": { "enum": ["draft", "published", "archived"] },
+    "featuredOnHome": { "type": "boolean" },
+    "cardLayout": { "enum": ["standard", "wide"] }
+  },
+  "$defs": {
+    "image": {
+      "type": "object",
+      "required": ["src", "alt"],
+      "properties": {
+        "src": { "type": "string" },
+        "alt": { "type": "string" },
+        "caption": { "type": "string" }
+      }
+    }
+  }
+}

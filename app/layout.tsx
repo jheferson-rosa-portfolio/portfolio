@@ -1,19 +1,19 @@
 import type { Metadata } from 'next';
+import { siteContent } from '@/lib/content';
 import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Jheferson Rosa — Linguagem, narrativa e forma',
-    template: '%s — Jheferson Rosa',
+    default: siteContent.metadata.title,
+    template: siteContent.metadata.titleTemplate,
   },
-  description:
-    'Portfólio de Jheferson Rosa, designer multidisciplinar que articula linguagem, narrativa e forma em projetos de branding, editorial, audiovisual e experiências digitais.',
+  description: siteContent.metadata.description,
   openGraph: {
-    title: 'Jheferson Rosa — Linguagem, narrativa e forma',
-    description: 'Design multidisciplinar entre identidade, edição, audiovisual e experiência.',
+    title: siteContent.metadata.title,
+    description: siteContent.metadata.socialDescription,
     locale: 'pt_BR',
     type: 'website',
-    images: [{ url: '/og-card.png', width: 1200, height: 630, alt: 'Linguagem, narrativa e forma — Jheferson Rosa' }],
+    images: [{ url: siteContent.metadata.socialImage, width: 1200, height: 630, alt: siteContent.metadata.socialImageAlt }],
   },
 };
 

@@ -1,27 +1,21 @@
-# Como editar este portfólio
+# Manutenção do portfólio
 
-O site é editável, mas atualmente não possui um painel visual de administração. As alterações são feitas nos arquivos do projeto e depois publicadas novamente.
+O conteúdo e o layout agora são independentes. Projetos, publicações e textos institucionais ficam na pasta `content`; os componentes visuais não contêm informações específicas de projetos.
 
-## Conteúdo dos projetos
+## O que pode ser mantido sem alterar o layout
 
-Os títulos, anos, categorias, resumos, ordem dos cases, imagens, vídeos e galerias ficam centralizados em `lib/projects.ts`.
+- criar, editar, ordenar, ocultar e arquivar projetos;
+- escolher quais projetos aparecem na Home;
+- trocar capa, imagem de abertura, galeria e vídeos;
+- editar categorias, atuação, ano, resumo e suportes;
+- atualizar publicações, Sobre, Contato, navegação e metadados.
 
-- Para mudar a ordem da Home e de Selected Work, mova o projeto dentro da lista `projects`.
-- Para atualizar um texto, altere o campo correspondente do projeto.
-- Para adicionar imagens a uma galeria, coloque o arquivo em `public/images` e inclua o endereço no campo `gallery`.
-- Para inserir um projeto, copie a estrutura de um item existente e preencha apenas informações documentadas.
+## Assets
 
-## Textos institucionais
+Os arquivos de cada projeto ficam em `public/projects/<slug>/`. O nome da pasta deve ser igual ao `slug` cadastrado no conteúdo.
 
-- Home: `app/page.tsx`
-- Sobre: `app/about/page.tsx`
-- Contato: `app/contact/page.tsx`
-- Publicações: `app/publications/page.tsx`
+## Preparação para CMS
 
-## Aparência
+O projeto está pronto para receber um CMS Git-based. A configuração futura poderá transformar os campos de `content/projects.json` em um formulário visual, salvar as mudanças no GitHub e acionar uma nova publicação na Vercel.
 
-A paleta, a escala tipográfica, os espaçamentos e os comportamentos responsivos ficam em `app/globals.css`.
-
-## Publicação
-
-Depois de editar, é necessário gerar uma nova versão e publicá-la. Se for importante fazer manutenção sem lidar com arquivos, uma próxima etapa pode conectar o portfólio a um CMS — por exemplo, uma base simples para projetos, textos e contatos — mantendo o mesmo design.
+Essa interface de administração ainda não está instalada: a etapa atual separa e tipa o conteúdo para que o CMS possa ser conectado sem redesenhar ou reestruturar o site.

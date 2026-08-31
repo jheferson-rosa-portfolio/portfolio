@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "title": "Jheferson Rosa — Linguagem, narrativa e forma",
+    "titleTemplate": "%s — Jheferson Rosa",
+    "description": "Portfólio de Jheferson Rosa, designer multidisciplinar que articula linguagem, narrativa e forma em projetos de branding, editorial, audiovisual e experiências digitais.",
+    "socialDescription": "Design multidisciplinar entre identidade, edição, audiovisual e experiência.",
+    "socialImage": "/og-card.png",
+    "socialImageAlt": "Linguagem, narrativa e forma — Jheferson Rosa"
+  },
+  "brand": {
+    "name": "Jheferson Rosa",
+    "descriptor": "Designer multidisciplinar",
+    "axis": ["Linguagem", "Narrativa", "Forma"]
+  },
+  "navigation": [
+    { "label": "Work", "href": "/work" },
+    { "label": "Publicações", "href": "/publications" },
+    { "label": "Sobre", "href": "/about" },
+    { "label": "Contato", "href": "/contact" }
+  ],
+  "home": {
+    "headline": "Design para transformar linguagem em experiência.",
+    "intro": "Jheferson Rosa é designer multidisciplinar. Articula repertório editorial, direção criativa e pensamento narrativo em diferentes suportes.",
+    "selectedWorkLabel": "Selected Work",
+    "selectedWorkHeading": "Projetos que atravessam identidade, edição, audiovisual e experiência.",
+    "selectedWorkLink": "Ver índice completo →",
+    "practiceLabel": "Prática",
+    "practiceText": "Entre a palavra e a imagem, cada projeto encontra a forma que sua história pede."
+  },
+  "work": {
+    "eyebrow": "Selected Work · 2019—26",
+    "heading": "Identidades que organizam histórias.",
+    "intro": "Uma seleção de projetos em que direção criativa, repertório editorial e produção audiovisual trabalham como partes de uma mesma linguagem."
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "heading": "Palavra, imagem e direção.",
+    "portrait": { "src": "/images/about/portrait.jpeg", "alt": "Jheferson Rosa em leitura pública" },
+    "paragraphs": [
+      "Sou designer multidisciplinar com mais de seis anos de experiência e uma trajetória que começa em Letras e na docência.",
+      "Minha prática atravessa design gráfico e editorial, branding, audiovisual, motion, design instrucional, storytelling, produção editorial e direção criativa.",
+      "Hoje atuo no ambiente corporativo na LG lugar de gente e no editorial por meio da Bardo. Também dirigi o selo independente Lola Frita por mais de quatro anos.",
+      "Sou autor de quatro livros e professor de escrita criativa."
+    ],
+    "fieldsLabel": "Campos de atuação",
+    "fields": ["Direção criativa", "Branding", "Design editorial", "Audiovisual", "Motion", "Storytelling", "Design instrucional", "Produção editorial"]
+  },
+  "contact": {
+    "title": "Contato",
+    "heading": "Vamos dar forma à próxima história?",
+    "intro": "Disponível para projetos de direção criativa, branding, design editorial, audiovisual e experiências de aprendizagem.",
+    "status": "E-mail e links profissionais serão adicionados antes do lançamento."
+  },
+  "footer": {
+    "links": [
+      { "label": "Selected Work", "href": "/work" },
+      { "label": "Publicações", "href": "/publications" },
+      { "label": "Sobre", "href": "/about" },
+      { "label": "Contato", "href": "/contact" }
+    ]
+  }
+}
