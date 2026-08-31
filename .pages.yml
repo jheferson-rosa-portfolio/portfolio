@@ -1,0 +1,577 @@
+media:
+  - name: projects
+    label: Mídias dos projetos
+    input: public/projects
+    output: /projects
+    categories: [image, video]
+    rename: safe
+  - name: site_images
+    label: Imagens institucionais
+    input: public/images
+    output: /images
+    categories: [image]
+    rename: safe
+  - name: public_assets
+    label: Arquivos públicos
+    input: public
+    output: /
+    categories: [image]
+    rename: safe
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "Conteúdo: criar {path}"
+      update: "Conteúdo: atualizar {path}"
+      delete: "Conteúdo: remover {path}"
+      rename: "Conteúdo: renomear {oldPath} para {newPath}"
+
+components:
+  project_image:
+    type: object
+    fields:
+      - name: src
+        label: Arquivo
+        type: image
+        required: true
+        options:
+          media: projects
+          path: public/projects
+      - name: alt
+        label: Texto alternativo
+        type: string
+        required: true
+      - name: caption
+        label: Legenda
+        type: string
+
+  project_hero:
+    type: object
+    fields:
+      - name: src
+        label: Arquivo
+        type: image
+        required: true
+        options:
+          media: projects
+          path: public/projects
+      - name: alt
+        label: Texto alternativo
+        type: string
+        required: true
+      - name: fit
+        label: Enquadramento
+        type: select
+        options:
+          values:
+            - name: cover
+              label: Preencher área
+            - name: contain
+              label: Mostrar imagem inteira
+
+  link:
+    type: object
+    fields:
+      - name: label
+        label: Texto
+        type: string
+        required: true
+      - name: href
+        label: Link
+        type: string
+        required: true
+
+content:
+  - name: projects
+    label: Projetos
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+
+      - name: slug
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          message: "Use apenas letras minúsculas, números e hífens."
+        description: "Define a URL do case. Exemplo: convencao-lg-2025."
+
+      - name: year
+        label: Ano
+        type: string
+        required: true
+
+      - name: category
+        label: Categoria
+        type: string
+        required: true
+
+      - name: role
+        label: Atuação
+        type: text
+        required: true
+
+      - name: support
+        label: Suportes
+        type: text
+
+      - name: summary
+        label: Resumo
+        type: text
+        required: true
+
+      - name: cover
+        label: Capa
+        component: project_image
+        required: true
+
+      - name: hero
+        label: Hero
+        component: project_hero
+        description: "Opcional. Quando vazio, o site usa a capa."
+
+      - name: gallery
+        label: Galeria
+        type: object
+        required: true
+        fields:
+          - name: label
+            label: Editoria
+            type: string
+            required: true
+          - name: heading
+            label: Título da seção
+            type: string
+            required: true
+          - name: items
+            label: Imagens
+            component: project_image
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{alt}"
+
+      - name: videos
+        label: Vídeos
+        type: block
+        blockKey: kind
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} · {kind}"
+        blocks:
+          - name: embed
+            label: Vídeo incorporado
+            fields:
+              - name: layout
+                label: Apresentação
+                type: select
+                required: true
+                options:
+                  values:
+                    - name: featured
+                      label: Destaque
+                    - name: grid
+                      label: Grade
+                    - name: stage
+                      label: Palco
+              - name: title
+                label: Título
+                type: string
+                required: true
+              - name: src
+                label: URL de incorporação
+                type: string
+                required: true
+                description: "Use a URL /embed do YouTube ou de outro provedor."
+              - name: label
+                label: Editoria
+                type: string
+              - name: heading
+                label: Título da seção
+                type: string
+              - name: note
+                label: Observação
+                type: text
+
+          - name: file
+            label: Arquivo de vídeo
+            fields:
+              - name: layout
+                label: Apresentação
+                type: select
+                required: true
+                options:
+                  values:
+                    - name: featured
+                      label: Destaque
+                    - name: grid
+                      label: Grade
+                    - name: stage
+                      label: Palco
+              - name: title
+                label: Título
+                type: string
+                required: true
+              - name: src
+                label: Arquivo
+                type: file
+                required: true
+                options:
+                  media: projects
+                  path: public/projects
+                  categories: [video]
+              - name: label
+                label: Editoria
+                type: string
+              - name: heading
+                label: Título da seção
+                type: string
+              - name: note
+                label: Observação
+                type: text
+
+      - name: collections
+        label: Coleções
+        type: block
+        blockKey: type
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        blocks:
+          - name: catalog
+            label: Catálogo editorial
+            fields:
+              - name: label
+                label: Editoria
+                type: string
+                required: true
+              - name: heading
+                label: Título da seção
+                type: string
+                required: true
+              - name: items
+                label: Títulos
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{number} · {title}"
+                fields:
+                  - name: number
+                    label: Número
+                    type: string
+                    required: true
+                  - name: title
+                    label: Título
+                    type: string
+                    required: true
+                  - name: image
+                    label: Imagem
+                    component: project_image
+                    required: true
+
+      - name: displayOrder
+        label: Ordem de exibição
+        type: number
+        required: true
+
+      - name: status
+        label: Status
+        type: select
+        required: true
+        options:
+          values:
+            - name: published
+              label: Publicado
+            - name: draft
+              label: Rascunho
+
+      - name: featuredOnHome
+        label: Destaque na home
+        type: boolean
+        required: true
+
+      - name: cardLayout
+        label: Formato do card
+        type: select
+        required: true
+        options:
+          values:
+            - name: wide
+              label: Largo
+            - name: standard
+              label: Padrão
+
+  - name: publications
+    label: Publicações
+    type: file
+    path: content/publications.json
+    format: json
+    fields:
+      - name: eyebrow
+        label: Editoria
+        type: string
+        required: true
+      - name: heading
+        label: Título
+        type: string
+        required: true
+      - name: intro
+        label: Introdução
+        type: text
+        required: true
+      - name: items
+        label: Publicações
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: meta
+            label: Informações
+            type: string
+            required: true
+          - name: image
+            label: Imagem
+            type: object
+            required: true
+            fields:
+              - name: src
+                label: Arquivo
+                type: image
+                required: true
+                options:
+                  media: public_assets
+                  path: public/images/publications
+              - name: alt
+                label: Texto alternativo
+                type: string
+                required: true
+          - name: status
+            label: Status
+            type: select
+            required: true
+            options:
+              values:
+                - name: published
+                  label: Publicado
+                - name: draft
+                  label: Rascunho
+          - name: displayOrder
+            label: Ordem de exibição
+            type: number
+            required: true
+
+  - name: site
+    label: Textos do site
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: metadata
+        label: Metadados e compartilhamento
+        type: object
+        required: true
+        fields:
+          - name: title
+            label: Título do site
+            type: string
+            required: true
+          - name: titleTemplate
+            label: Modelo dos títulos
+            type: string
+            required: true
+          - name: description
+            label: Descrição
+            type: text
+            required: true
+          - name: socialDescription
+            label: Descrição para compartilhamento
+            type: text
+            required: true
+          - name: socialImage
+            label: Imagem para compartilhamento
+            type: image
+            required: true
+            options:
+              media: public_assets
+          - name: socialImageAlt
+            label: Texto alternativo da imagem
+            type: string
+            required: true
+
+      - name: brand
+        label: Marca
+        type: object
+        required: true
+        fields:
+          - name: name
+            label: Nome
+            type: string
+            required: true
+          - name: descriptor
+            label: Descrição profissional
+            type: string
+            required: true
+          - name: axis
+            label: Eixos de posicionamento
+            type: string
+            list: true
+            required: true
+
+      - name: navigation
+        label: Navegação principal
+        component: link
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+
+      - name: home
+        label: Home
+        type: object
+        required: true
+        fields:
+          - name: headline
+            label: Chamada principal
+            type: text
+            required: true
+          - name: intro
+            label: Introdução
+            type: text
+            required: true
+          - name: selectedWorkLabel
+            label: Editoria de projetos
+            type: string
+            required: true
+          - name: selectedWorkHeading
+            label: Título de projetos
+            type: text
+            required: true
+          - name: selectedWorkLink
+            label: Texto do link
+            type: string
+            required: true
+          - name: practiceLabel
+            label: Editoria de prática
+            type: string
+            required: true
+          - name: practiceText
+            label: Texto de prática
+            type: text
+            required: true
+
+      - name: work
+        label: Página de projetos
+        type: object
+        required: true
+        fields:
+          - name: eyebrow
+            label: Editoria
+            type: string
+            required: true
+          - name: heading
+            label: Título
+            type: text
+            required: true
+          - name: intro
+            label: Introdução
+            type: text
+            required: true
+
+      - name: about
+        label: Sobre
+        type: object
+        required: true
+        fields:
+          - name: eyebrow
+            label: Editoria
+            type: string
+            required: true
+          - name: heading
+            label: Título
+            type: string
+            required: true
+          - name: portrait
+            label: Retrato
+            type: object
+            required: true
+            fields:
+              - name: src
+                label: Imagem
+                type: image
+                required: true
+                options:
+                  media: site_images
+                  path: public/images/about
+              - name: alt
+                label: Texto alternativo
+                type: string
+                required: true
+          - name: paragraphs
+            label: Parágrafos
+            type: text
+            list:
+              collapsible: false
+            required: true
+          - name: fieldsLabel
+            label: Título dos campos de atuação
+            type: string
+            required: true
+          - name: fields
+            label: Campos de atuação
+            type: string
+            list: true
+            required: true
+
+      - name: contact
+        label: Contato
+        type: object
+        required: true
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: heading
+            label: Chamada
+            type: text
+            required: true
+          - name: intro
+            label: Introdução
+            type: text
+            required: true
+          - name: status
+            label: Status
+            type: text
+            required: true
+
+      - name: footer
+        label: Rodapé
+        type: object
+        required: true
+        fields:
+          - name: links
+            label: Links
+            component: link
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
