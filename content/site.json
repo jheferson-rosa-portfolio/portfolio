@@ -10,16 +10,32 @@
   "brand": {
     "name": "Jheferson Rosa",
     "descriptor": "Designer multidisciplinar",
-    "axis": ["Linguagem", "Narrativa", "Forma"]
+    "axis": [
+      "Linguagem",
+      "Narrativa",
+      "Forma"
+    ]
   },
   "navigation": [
-    { "label": "Work", "href": "/work" },
-    { "label": "Publicações", "href": "/publications" },
-    { "label": "Sobre", "href": "/about" },
-    { "label": "Contato", "href": "/contact" }
+    {
+      "label": "Work",
+      "href": "/work"
+    },
+    {
+      "label": "Publicações",
+      "href": "/publications"
+    },
+    {
+      "label": "Sobre",
+      "href": "/about"
+    },
+    {
+      "label": "Contato",
+      "href": "/contact"
+    }
   ],
   "home": {
-    "headline": "Design para transformar linguagem em experiência.",
+    "headline": "Design para contar histórias.",
     "intro": "Jheferson Rosa é designer multidisciplinar. Articula repertório editorial, direção criativa e pensamento narrativo em diferentes suportes.",
     "selectedWorkLabel": "Selected Work",
     "selectedWorkHeading": "Projetos que atravessam identidade, edição, audiovisual e experiência.",
@@ -35,7 +51,10 @@
   "about": {
     "eyebrow": "Sobre",
     "heading": "Palavra, imagem e direção.",
-    "portrait": { "src": "/images/about/portrait.jpeg", "alt": "Jheferson Rosa em leitura pública" },
+    "portrait": {
+      "src": "/images/about/portrait.jpeg",
+      "alt": "Jheferson Rosa em leitura pública"
+    },
     "paragraphs": [
       "Sou designer multidisciplinar com mais de seis anos de experiência e uma trajetória que começa em Letras e na docência.",
       "Minha prática atravessa design gráfico e editorial, branding, audiovisual, motion, design instrucional, storytelling, produção editorial e direção criativa.",
@@ -43,7 +62,16 @@
       "Sou autor de quatro livros e professor de escrita criativa."
     ],
     "fieldsLabel": "Campos de atuação",
-    "fields": ["Direção criativa", "Branding", "Design editorial", "Audiovisual", "Motion", "Storytelling", "Design instrucional", "Produção editorial"]
+    "fields": [
+      "Direção criativa",
+      "Branding",
+      "Design editorial",
+      "Audiovisual",
+      "Motion",
+      "Storytelling",
+      "Design instrucional",
+      "Produção editorial"
+    ]
   },
   "contact": {
     "title": "Contato",
@@ -53,10 +81,22 @@
   },
   "footer": {
     "links": [
-      { "label": "Selected Work", "href": "/work" },
-      { "label": "Publicações", "href": "/publications" },
-      { "label": "Sobre", "href": "/about" },
-      { "label": "Contato", "href": "/contact" }
+      {
+        "label": "Selected Work",
+        "href": "/work"
+      },
+      {
+        "label": "Publicações",
+        "href": "/publications"
+      },
+      {
+        "label": "Sobre",
+        "href": "/about"
+      },
+      {
+        "label": "Contato",
+        "href": "/contact"
+      }
     ]
   }
 }
