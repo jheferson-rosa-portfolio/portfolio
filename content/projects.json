@@ -3,26 +3,69 @@
     "title": "Convenção LG",
     "slug": "convencao-lg-2025",
     "year": "2025",
-    "category": "Design, audiovisual & branding",
-    "role": "Criação de marca, peças gráficas e direção de arte",
-    "support": "Impressos, digital, motion e audiovisual",
-    "summary": "Identidade visual completa para a convenção de fim de ano da LG lugar de gente — do sistema de marca e das apresentações aos materiais de palco e vídeos cinematográficos.",
-    "cover": { "src": "/projects/convencao-lg-2025/cover.jpg", "alt": "Palco da Convenção LG 2025" },
-    "hero": { "src": "/projects/convencao-lg-2025/cover.jpg", "alt": "Palco da Convenção LG 2025", "fit": "cover" },
+    "category": "design, motion, audiovisual & branding",
+    "role": "criação de marca, peças gráficas e direção de arte",
+    "support": "impressos, digital, motion e audiovisual",
+    "summary": "identidade visual completa para a convenção de fim de ano da LG lugar de gente — do sistema de marca e das apresentações aos materiais de palco e vídeos cinematográficos",
+    "cover": {
+      "src": "/projects/convencao-lg-2025/cover.jpg",
+      "alt": "Palco da Convenção LG 2025"
+    },
+    "hero": {
+      "src": "/projects/convencao-lg-2025/cover.jpg",
+      "alt": "Palco da Convenção LG 2025",
+      "fit": "cover"
+    },
     "gallery": {
       "label": "Sistema visual",
       "heading": "Da ideia central aos seus desdobramentos.",
       "items": [
-        { "src": "/projects/convencao-lg-2025/gallery/mockup.jpg", "alt": "Aplicações da identidade da Convenção LG" },
-        { "src": "/projects/convencao-lg-2025/gallery/stage.jpg", "alt": "Identidade aplicada no palco do evento" },
-        { "src": "/projects/convencao-lg-2025/gallery/presentation.jpg", "alt": "Apresentação da identidade visual" },
-        { "src": "/projects/convencao-lg-2025/gallery/application.jpg", "alt": "Peças da Convenção LG" }
+        {
+          "src": "/projects/logo.png",
+          "alt": "logo"
+        },
+        {
+          "src": "/projects/convencao-lg-2025/gallery/mockup.jpg",
+          "alt": "telão"
+        },
+        {
+          "src": "/projects/convencao-lg-2025/gallery/stage.jpg",
+          "alt": "backdrop"
+        },
+        {
+          "src": "/projects/convencao-lg-2025/gallery/presentation.jpg",
+          "alt": "kv"
+        },
+        {
+          "src": "/projects/convencao-lg-2025/gallery/application.jpg",
+          "alt": "kv"
+        },
+        {
+          "src": "/projects/e-mail-mkt-amanha-convencao.jpg",
+          "alt": "email marketing"
+        },
+        {
+          "src": "/projects/entre-a-gente-falta-1-mes.png",
+          "alt": "comunicação"
+        }
       ]
     },
     "videos": [
-      { "kind": "embed", "layout": "featured", "title": "Abertura da Convenção LG", "src": "https://www.youtube-nocookie.com/embed/QrJVfi0FfZQ", "label": "Audiovisual", "heading": "O evento começa antes do palco." }
+      {
+        "kind": "embed",
+        "layout": "featured",
+        "title": "Logo Motion",
+        "src": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ItUYGZR9p74?si=rTTrHmGDPxL5aXan\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "label": "audiovisual"
+      },
+      {
+        "kind": "embed",
+        "layout": "featured",
+        "title": "Abertura da Convenção LG",
+        "src": "https://www.youtube-nocookie.com/embed/QrJVfi0FfZQ",
+        "label": "audiovisual"
+      }
     ],
-    "collections": [],
     "displayOrder": 1,
     "status": "published",
     "featuredOnHome": true,
@@ -31,28 +74,73 @@
   {
     "title": "Lola Frita",
     "slug": "lola-frita",
-    "year": "2019—23",
-    "category": "Direção editorial, design editorial & branding",
-    "role": "Direção criativa e editorial, design e produção editorial",
-    "support": "Impresso, digital e eventos",
-    "summary": "Quatro anos de direção de um selo editorial independente: identidade, comunicação e o ciclo de criação e produção de mais de 20 livros, zines e plaquetes.",
-    "cover": { "src": "/projects/lola-frita/cover.jpg", "alt": "Jheferson Rosa na mesa da Lola Frita em feira editorial" },
-    "hero": { "src": "/projects/lola-frita/cover.jpg", "alt": "Jheferson Rosa na mesa da Lola Frita em feira editorial", "fit": "contain" },
+    "year": "2019—26",
+    "category": "direção editorial, design editorial & branding",
+    "role": "direção criativa e editorial, design e produção editorial",
+    "support": "impresso, digital e eventos",
+    "summary": "direção do projeto criativo lola frita, com 7 anos de história, sendo 4 anos como um selo editorial independente: identidade, comunicação e o ciclo de criação e produção de mais de 20 livros, zines e plaquetes",
+    "cover": {
+      "src": "/projects/chatgpt-image-31-de-ago-de-2026-060105.png",
+      "alt": "Jheferson Rosa na mesa da Lola Frita em feira editorial"
+    },
+    "hero": {
+      "src": "/projects/lola-frita/cover.jpg",
+      "alt": "Jheferson Rosa na mesa da Lola Frita em feira editorial",
+      "fit": "contain"
+    },
     "gallery": {
       "label": "Circulação",
       "heading": "Publicar também é criar encontros.",
       "items": [
-        { "src": "/projects/lola-frita/gallery/fair.jpg", "alt": "Lola Frita em feira de publicação independente" },
-        { "src": "/projects/lola-frita/gallery/fair-detail.jpg", "alt": "Publicações da Lola Frita em circulação" }
+        {
+          "src": "/projects/lola-frita/gallery/fair.jpg",
+          "alt": "Lola Frita em feira de publicação independente"
+        },
+        {
+          "src": "/projects/lola-frita/gallery/fair-detail.jpg",
+          "alt": "Publicações da Lola Frita em circulação"
+        }
       ]
     },
     "videos": [
-      { "kind": "file", "layout": "grid", "title": "Fofocas do inconsciente", "src": "/projects/lola-frita/videos/fofocas-do-inconsciente.mp4", "label": "Livros em movimento", "heading": "Ritmo, matéria e sequência." },
-      { "kind": "file", "layout": "grid", "title": "Chame por mim e responderei coisas ocultas", "src": "/projects/lola-frita/videos/chame-por-mim.mp4" },
-      { "kind": "file", "layout": "grid", "title": "Poemas de casa", "src": "/projects/lola-frita/videos/poemas-de-casa.mp4" },
-      { "kind": "file", "layout": "grid", "title": "A estos hombres tristes", "src": "/projects/lola-frita/videos/a-estos-hombres-tristes.mp4" },
-      { "kind": "file", "layout": "grid", "title": "Uma vida simples", "src": "/projects/lola-frita/videos/uma-vida-simples.mp4" },
-      { "kind": "file", "layout": "grid", "title": "O passado assedia", "src": "/projects/lola-frita/videos/o-passado-assedia.mp4" }
+      {
+        "kind": "file",
+        "layout": "grid",
+        "title": "Fofocas do inconsciente",
+        "src": "/projects/lola-frita/videos/fofocas-do-inconsciente.mp4",
+        "label": "Livros em movimento",
+        "heading": "Ritmo, matéria e sequência."
+      },
+      {
+        "kind": "file",
+        "layout": "grid",
+        "title": "Chame por mim e responderei coisas ocultas",
+        "src": "/projects/lola-frita/videos/chame-por-mim.mp4"
+      },
+      {
+        "kind": "file",
+        "layout": "grid",
+        "title": "Poemas de casa",
+        "src": "/projects/lola-frita/videos/poemas-de-casa.mp4"
+      },
+      {
+        "kind": "file",
+        "layout": "grid",
+        "title": "A estos hombres tristes",
+        "src": "/projects/lola-frita/videos/a-estos-hombres-tristes.mp4"
+      },
+      {
+        "kind": "file",
+        "layout": "grid",
+        "title": "Uma vida simples",
+        "src": "/projects/lola-frita/videos/uma-vida-simples.mp4"
+      },
+      {
+        "kind": "file",
+        "layout": "grid",
+        "title": "O passado assedia",
+        "src": "/projects/lola-frita/videos/o-passado-assedia.mp4"
+      }
     ],
     "collections": [
       {
@@ -60,24 +148,150 @@
         "label": "Catálogo · 18 títulos",
         "heading": "Uma coleção é também uma forma de mundo.",
         "items": [
-          { "number": "01", "title": "Potencial para significativos desastres", "image": { "src": "/projects/lola-frita/catalog/01.jpg", "alt": "Potencial para significativos desastres" } },
-          { "number": "02", "title": "Era uma promessa", "image": { "src": "/projects/lola-frita/catalog/02.jpg", "alt": "Era uma promessa" } },
-          { "number": "03", "title": "Terceiro mistério", "image": { "src": "/projects/lola-frita/catalog/03.jpg", "alt": "Terceiro mistério" } },
-          { "number": "04", "title": "Jamais falaríamos", "image": { "src": "/projects/lola-frita/catalog/04.jpg", "alt": "Jamais falaríamos" } },
-          { "number": "05", "title": "Meu corpo é um mapa de desobediência", "image": { "src": "/projects/lola-frita/catalog/05.jpg", "alt": "Meu corpo é um mapa de desobediência" } },
-          { "number": "06", "title": "Sílaba emperrada", "image": { "src": "/projects/lola-frita/catalog/06.jpg", "alt": "Sílaba emperrada" } },
-          { "number": "07", "title": "Era uma promessa — 2ª edição", "image": { "src": "/projects/lola-frita/catalog/07.jpg", "alt": "Era uma promessa — 2ª edição" } },
-          { "number": "08", "title": "Fofocas do inconsciente", "image": { "src": "/projects/lola-frita/catalog/08.jpg", "alt": "Fofocas do inconsciente" } },
-          { "number": "09", "title": "Chame por mim e responderei coisas ocultas", "image": { "src": "/projects/lola-frita/catalog/09.jpg", "alt": "Chame por mim e responderei coisas ocultas" } },
-          { "number": "10", "title": "Small English Horse", "image": { "src": "/projects/lola-frita/catalog/10.jpg", "alt": "Small English Horse" } },
-          { "number": "11", "title": "Sulfite", "image": { "src": "/projects/lola-frita/catalog/11.jpg", "alt": "Sulfite" } },
-          { "number": "12", "title": "Essa vida inteira ou menos", "image": { "src": "/projects/lola-frita/catalog/12.jpg", "alt": "Essa vida inteira ou menos" } },
-          { "number": "13", "title": "Poemas de casa", "image": { "src": "/projects/lola-frita/catalog/13.jpg", "alt": "Poemas de casa" } },
-          { "number": "14", "title": "A estos hombres tristes", "image": { "src": "/projects/lola-frita/catalog/14.jpg", "alt": "A estos hombres tristes" } },
-          { "number": "15", "title": "Uma vida simples", "image": { "src": "/projects/lola-frita/catalog/15.jpg", "alt": "Uma vida simples" } },
-          { "number": "16", "title": "O passado assedia", "image": { "src": "/projects/lola-frita/catalog/16.jpg", "alt": "O passado assedia" } },
-          { "number": "17", "title": "Kuarup", "image": { "src": "/projects/lola-frita/catalog/17.jpg", "alt": "Kuarup" } },
-          { "number": "18", "title": "Revista Cauim nº 1", "image": { "src": "/projects/lola-frita/catalog/18.jpg", "alt": "Revista Cauim nº 1" } }
+          {
+            "number": "01",
+            "title": "Potencial para significativos desastres",
+            "image": {
+              "src": "/projects/lola-frita/catalog/01.jpg",
+              "alt": "Potencial para significativos desastres"
+            }
+          },
+          {
+            "number": "02",
+            "title": "Era uma promessa",
+            "image": {
+              "src": "/projects/lola-frita/catalog/02.jpg",
+              "alt": "Era uma promessa"
+            }
+          },
+          {
+            "number": "03",
+            "title": "Terceiro mistério",
+            "image": {
+              "src": "/projects/lola-frita/catalog/03.jpg",
+              "alt": "Terceiro mistério"
+            }
+          },
+          {
+            "number": "04",
+            "title": "Jamais falaríamos",
+            "image": {
+              "src": "/projects/lola-frita/catalog/04.jpg",
+              "alt": "Jamais falaríamos"
+            }
+          },
+          {
+            "number": "05",
+            "title": "Meu corpo é um mapa de desobediência",
+            "image": {
+              "src": "/projects/lola-frita/catalog/05.jpg",
+              "alt": "Meu corpo é um mapa de desobediência"
+            }
+          },
+          {
+            "number": "06",
+            "title": "Sílaba emperrada",
+            "image": {
+              "src": "/projects/lola-frita/catalog/06.jpg",
+              "alt": "Sílaba emperrada"
+            }
+          },
+          {
+            "number": "07",
+            "title": "Era uma promessa — 2ª edição",
+            "image": {
+              "src": "/projects/lola-frita/catalog/07.jpg",
+              "alt": "Era uma promessa — 2ª edição"
+            }
+          },
+          {
+            "number": "08",
+            "title": "Fofocas do inconsciente",
+            "image": {
+              "src": "/projects/lola-frita/catalog/08.jpg",
+              "alt": "Fofocas do inconsciente"
+            }
+          },
+          {
+            "number": "09",
+            "title": "Chame por mim e responderei coisas ocultas",
+            "image": {
+              "src": "/projects/lola-frita/catalog/09.jpg",
+              "alt": "Chame por mim e responderei coisas ocultas"
+            }
+          },
+          {
+            "number": "10",
+            "title": "Small English Horse",
+            "image": {
+              "src": "/projects/lola-frita/catalog/10.jpg",
+              "alt": "Small English Horse"
+            }
+          },
+          {
+            "number": "11",
+            "title": "Sulfite",
+            "image": {
+              "src": "/projects/lola-frita/catalog/11.jpg",
+              "alt": "Sulfite"
+            }
+          },
+          {
+            "number": "12",
+            "title": "Essa vida inteira ou menos",
+            "image": {
+              "src": "/projects/lola-frita/catalog/12.jpg",
+              "alt": "Essa vida inteira ou menos"
+            }
+          },
+          {
+            "number": "13",
+            "title": "Poemas de casa",
+            "image": {
+              "src": "/projects/lola-frita/catalog/13.jpg",
+              "alt": "Poemas de casa"
+            }
+          },
+          {
+            "number": "14",
+            "title": "A estos hombres tristes",
+            "image": {
+              "src": "/projects/lola-frita/catalog/14.jpg",
+              "alt": "A estos hombres tristes"
+            }
+          },
+          {
+            "number": "15",
+            "title": "Uma vida simples",
+            "image": {
+              "src": "/projects/lola-frita/catalog/15.jpg",
+              "alt": "Uma vida simples"
+            }
+          },
+          {
+            "number": "16",
+            "title": "O passado assedia",
+            "image": {
+              "src": "/projects/lola-frita/catalog/16.jpg",
+              "alt": "O passado assedia"
+            }
+          },
+          {
+            "number": "17",
+            "title": "Kuarup",
+            "image": {
+              "src": "/projects/lola-frita/catalog/17.jpg",
+              "alt": "Kuarup"
+            }
+          },
+          {
+            "number": "18",
+            "title": "Revista Cauim nº 1",
+            "image": {
+              "src": "/projects/lola-frita/catalog/18.jpg",
+              "alt": "Revista Cauim nº 1"
+            }
+          }
         ]
       }
     ],
@@ -94,13 +308,36 @@
     "role": "Direção criativa, identidade visual, edição e sonoplastia",
     "support": "Digital, audiovisual e identidade para evento",
     "summary": "Uma identidade comemorativa desdobrada em comunicação interna, série de entrevistas e um documentário sobre a história da companhia.",
-    "cover": { "src": "/projects/lg-40-anos/cover.jpg", "alt": "Identidade comemorativa de 40 anos da LG lugar de gente" },
-    "hero": { "src": "/projects/lg-40-anos/hero.jpg", "alt": "Comunicação dos 40 anos da LG lugar de gente", "fit": "cover" },
-    "gallery": { "label": "Sistema visual", "heading": "Da ideia central aos seus desdobramentos.", "items": [{ "src": "/projects/lg-40-anos/cover.jpg", "alt": "Identidade visual dos 40 anos" }] },
+    "cover": {
+      "src": "/projects/lg-40-anos/cover.jpg",
+      "alt": "Identidade comemorativa de 40 anos da LG lugar de gente"
+    },
+    "hero": {
+      "src": "/projects/lg-40-anos/hero.jpg",
+      "alt": "Comunicação dos 40 anos da LG lugar de gente",
+      "fit": "cover"
+    },
+    "gallery": {
+      "label": "Sistema visual",
+      "heading": "Da ideia central aos seus desdobramentos.",
+      "items": [
+        {
+          "src": "/projects/lg-40-anos/cover.jpg",
+          "alt": "Identidade visual dos 40 anos"
+        }
+      ]
+    },
     "videos": [
-      { "kind": "embed", "layout": "featured", "title": "Documentário LG 40 anos", "src": "https://www.youtube-nocookie.com/embed/14jYNLDDKbE", "label": "Audiovisual", "heading": "Uma história contada em filme.", "note": "Versão alternativa do documentário. A produção integral tem 19 minutos e contém material confidencial." }
+      {
+        "kind": "embed",
+        "layout": "featured",
+        "title": "Documentário LG 40 anos",
+        "src": "https://www.youtube-nocookie.com/embed/14jYNLDDKbE",
+        "label": "Audiovisual",
+        "heading": "Uma história contada em filme.",
+        "note": "Versão alternativa do documentário. A produção integral tem 19 minutos e contém material confidencial."
+      }
     ],
-    "collections": [],
     "displayOrder": 3,
     "status": "published",
     "featuredOnHome": true,
@@ -114,17 +351,77 @@
     "role": "Direção criativa, identidade, storytelling e e-learning",
     "support": "Digital, Articulate Storyline, audiovisual e artigos",
     "summary": "Programa de conscientização sobre segurança e privacidade estruturado como uma narrativa gamificada, com identidade própria, recompensas e avaliações dinâmicas no Articulate Storyline.",
-    "cover": { "src": "/projects/spi-2025/cover.jpg", "alt": "Continentes Seguros — SPI 2025" },
-    "hero": { "src": "/projects/spi-2025/cover.jpg", "alt": "Continentes Seguros — SPI 2025", "fit": "cover" },
+    "cover": {
+      "src": "/projects/spi-2025/cover.jpg",
+      "alt": "Continentes Seguros — SPI 2025"
+    },
+    "hero": {
+      "src": "/projects/spi-2025/cover.jpg",
+      "alt": "Continentes Seguros — SPI 2025",
+      "fit": "cover"
+    },
     "gallery": {
       "label": "Experiência e comunicação",
       "heading": "Uma narrativa distribuída por diferentes pontos de contato.",
       "items": [
-        { "src": "/projects/spi-2025/gallery/01.jpg", "alt": "Peça de lançamento do SPI 2025" }, { "src": "/projects/spi-2025/gallery/02.jpg", "alt": "Banner do SPI 2025" }, { "src": "/projects/spi-2025/gallery/03.jpg", "alt": "Tela 1 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/04.jpg", "alt": "Tela 2 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/05.jpg", "alt": "Tela 3 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/06.jpg", "alt": "Tela 4 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/07.jpg", "alt": "Tela 5 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/08.jpg", "alt": "Tela 6 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/09.jpg", "alt": "Tela 7 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/10.jpg", "alt": "Tela narrativa do SPI 2025" }, { "src": "/projects/spi-2025/gallery/11.jpg", "alt": "Tela 9 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/12.jpg", "alt": "Tela 10 do e-learning SPI 2025" }, { "src": "/projects/spi-2025/gallery/13.jpg", "alt": "Imagem de artigo do SPI 2025" }, { "src": "/projects/spi-2025/gallery/14.jpg", "alt": "Conteúdo informativo do SPI 2025" }
+        {
+          "src": "/projects/spi-2025/gallery/01.jpg",
+          "alt": "Peça de lançamento do SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/02.jpg",
+          "alt": "Banner do SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/03.jpg",
+          "alt": "Tela 1 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/04.jpg",
+          "alt": "Tela 2 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/05.jpg",
+          "alt": "Tela 3 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/06.jpg",
+          "alt": "Tela 4 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/07.jpg",
+          "alt": "Tela 5 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/08.jpg",
+          "alt": "Tela 6 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/09.jpg",
+          "alt": "Tela 7 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/10.jpg",
+          "alt": "Tela narrativa do SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/11.jpg",
+          "alt": "Tela 9 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/12.jpg",
+          "alt": "Tela 10 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/13.jpg",
+          "alt": "Imagem de artigo do SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/14.jpg",
+          "alt": "Conteúdo informativo do SPI 2025"
+        }
       ]
     },
-    "videos": [],
-    "collections": [],
     "displayOrder": 4,
     "status": "published",
     "featuredOnHome": true,
@@ -138,17 +435,49 @@
     "role": "Direção criativa, identidade, storytelling e e-learning",
     "support": "Digital, e-learning, audiovisual e comunicação interna",
     "summary": "Segunda edição do programa de conscientização sobre segurança e privacidade, apresentada como um novo ciclo visual e narrativo da experiência.",
-    "cover": { "src": "/projects/spi-2026/cover.jpg", "alt": "Identidade do SPI 2026" },
-    "hero": { "src": "/projects/spi-2026/cover.jpg", "alt": "Identidade do SPI 2026", "fit": "cover" },
+    "cover": {
+      "src": "/projects/spi-2026/cover.jpg",
+      "alt": "Identidade do SPI 2026"
+    },
+    "hero": {
+      "src": "/projects/spi-2026/cover.jpg",
+      "alt": "Identidade do SPI 2026",
+      "fit": "cover"
+    },
     "gallery": {
       "label": "Experiência e comunicação",
       "heading": "Um novo ciclo visual para o programa.",
       "items": [
-        { "src": "/projects/spi-2026/gallery/01.jpg", "alt": "E-mail de lançamento do SPI 2026" }, { "src": "/projects/spi-2026/gallery/02.jpg", "alt": "Banner interno do SPI 2026" }, { "src": "/projects/spi-2026/gallery/03.jpg", "alt": "Banner principal do SPI 2026" }, { "src": "/projects/spi-2026/gallery/04.jpg", "alt": "Capa de comunicação do SPI 2026" }, { "src": "/projects/spi-2026/gallery/05.jpg", "alt": "Comunicação interna do SPI 2026" }, { "src": "/projects/spi-2026/gallery/06.jpg", "alt": "Peça quadrada do SPI 2026" }, { "src": "/projects/spi-2026/gallery/07.jpg", "alt": "Imagem principal do SPI 2026" }
+        {
+          "src": "/projects/spi-2026/gallery/01.jpg",
+          "alt": "E-mail de lançamento do SPI 2026"
+        },
+        {
+          "src": "/projects/spi-2026/gallery/02.jpg",
+          "alt": "Banner interno do SPI 2026"
+        },
+        {
+          "src": "/projects/spi-2026/gallery/03.jpg",
+          "alt": "Banner principal do SPI 2026"
+        },
+        {
+          "src": "/projects/spi-2026/gallery/04.jpg",
+          "alt": "Capa de comunicação do SPI 2026"
+        },
+        {
+          "src": "/projects/spi-2026/gallery/05.jpg",
+          "alt": "Comunicação interna do SPI 2026"
+        },
+        {
+          "src": "/projects/spi-2026/gallery/06.jpg",
+          "alt": "Peça quadrada do SPI 2026"
+        },
+        {
+          "src": "/projects/spi-2026/gallery/07.jpg",
+          "alt": "Imagem principal do SPI 2026"
+        }
       ]
     },
-    "videos": [],
-    "collections": [],
     "displayOrder": 5,
     "status": "published",
     "featuredOnHome": true,
@@ -162,17 +491,37 @@
     "role": "Direção criativa, identidade visual e criação de ícones",
     "support": "Digital — PPTX e PDF",
     "summary": "Sistema visual para apresentar missão, linha do tempo e pilares da cultura organizacional, incluindo cinco marcas exclusivas para os valores corporativos.",
-    "cover": { "src": "/projects/deck-de-cultura/cover.jpg", "alt": "Capa do Deck de Cultura" },
-    "hero": { "src": "/projects/deck-de-cultura/cover.jpg", "alt": "Capa do Deck de Cultura", "fit": "cover" },
+    "cover": {
+      "src": "/projects/deck-de-cultura/cover.jpg",
+      "alt": "Capa do Deck de Cultura"
+    },
+    "hero": {
+      "src": "/projects/deck-de-cultura/cover.jpg",
+      "alt": "Capa do Deck de Cultura",
+      "fit": "cover"
+    },
     "gallery": {
       "label": "Sistema visual",
       "heading": "Da cultura aos seus sinais visuais.",
       "items": [
-        { "src": "/projects/deck-de-cultura/gallery/values.jpg", "alt": "Sistema dos valores corporativos" }, { "src": "/projects/deck-de-cultura/gallery/value-1.jpg", "alt": "Marca de valor corporativo" }, { "src": "/projects/deck-de-cultura/gallery/value-2.jpg", "alt": "Marca de valor corporativo" }, { "src": "/projects/deck-de-cultura/gallery/timeline.jpg", "alt": "Linha do tempo da empresa" }
+        {
+          "src": "/projects/deck-de-cultura/gallery/values.jpg",
+          "alt": "Sistema dos valores corporativos"
+        },
+        {
+          "src": "/projects/deck-de-cultura/gallery/value-1.jpg",
+          "alt": "Marca de valor corporativo"
+        },
+        {
+          "src": "/projects/deck-de-cultura/gallery/value-2.jpg",
+          "alt": "Marca de valor corporativo"
+        },
+        {
+          "src": "/projects/deck-de-cultura/gallery/timeline.jpg",
+          "alt": "Linha do tempo da empresa"
+        }
       ]
     },
-    "videos": [],
-    "collections": [],
     "displayOrder": 6,
     "status": "published",
     "featuredOnHome": true,
@@ -186,19 +535,43 @@
     "role": "Direção criativa, identidade visual e motion design",
     "support": "Digital, editorial e motion",
     "summary": "Identidade para uma frente de serviços editoriais, articulando sistema visual, comunicação e animação de marca a partir do conceito full narrative.",
-    "cover": { "src": "/projects/bardo/cover.jpg", "alt": "Identidade visual da Bardo" },
-    "hero": { "src": "/projects/bardo/cover.jpg", "alt": "Identidade visual da Bardo", "fit": "cover" },
+    "cover": {
+      "src": "/projects/bardo/cover.jpg",
+      "alt": "Identidade visual da Bardo"
+    },
+    "hero": {
+      "src": "/projects/bardo/cover.jpg",
+      "alt": "Identidade visual da Bardo",
+      "fit": "cover"
+    },
     "gallery": {
       "label": "Sistema visual",
       "heading": "Da ideia central aos seus desdobramentos.",
       "items": [
-        { "src": "/projects/bardo/gallery/artboard-1.jpg", "alt": "Aplicação da identidade Bardo" }, { "src": "/projects/bardo/gallery/artboard-copy.jpg", "alt": "Sistema gráfico da Bardo" }, { "src": "/projects/bardo/gallery/artboard-3.jpg", "alt": "Desdobramento da marca Bardo" }
+        {
+          "src": "/projects/bardo/gallery/artboard-1.jpg",
+          "alt": "Aplicação da identidade Bardo"
+        },
+        {
+          "src": "/projects/bardo/gallery/artboard-copy.jpg",
+          "alt": "Sistema gráfico da Bardo"
+        },
+        {
+          "src": "/projects/bardo/gallery/artboard-3.jpg",
+          "alt": "Desdobramento da marca Bardo"
+        }
       ]
     },
     "videos": [
-      { "kind": "file", "layout": "stage", "title": "Animação da marca Bardo", "src": "/projects/bardo/videos/logo-animation.mp4", "label": "Motion", "heading": "A marca também existe em movimento." }
+      {
+        "kind": "file",
+        "layout": "stage",
+        "title": "Animação da marca Bardo",
+        "src": "/projects/bardo/videos/logo-animation.mp4",
+        "label": "Motion",
+        "heading": "A marca também existe em movimento."
+      }
     ],
-    "collections": [],
     "displayOrder": 7,
     "status": "published",
     "featuredOnHome": true,
