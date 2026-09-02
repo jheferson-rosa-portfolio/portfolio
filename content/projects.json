@@ -356,9 +356,9 @@
       "alt": "Continentes Seguros — SPI 2025"
     },
     "hero": {
-      "src": "/projects/spi-2025/cover.jpg",
+      "src": "/projects/spi-2025/gallery/14.jpg",
       "alt": "Continentes Seguros — SPI 2025",
-      "fit": "cover"
+      "fit": "contain"
     },
     "gallery": {
       "label": "Experiência e comunicação",
