@@ -8,13 +8,13 @@
     "support": "impressos, digital, motion e audiovisual",
     "summary": "identidade visual completa para a convenção de fim de ano da LG lugar de gente — do sistema de marca e das apresentações aos materiais de palco e vídeos cinematográficos",
     "cover": {
-      "src": "/projects/convencao-lg-2025/cover.jpg",
+      "src": "/projects/chatgpt-image-2-de-set-de-2026-055605.png",
       "alt": "Palco da Convenção LG 2025"
     },
     "hero": {
       "src": "/projects/convencao-lg-2025/cover.jpg",
       "alt": "Palco da Convenção LG 2025",
-      "fit": "cover"
+      "fit": "contain"
     },
     "gallery": {
       "label": "Sistema visual",
@@ -84,7 +84,7 @@
       "alt": "Jheferson Rosa na mesa da Lola Frita em feira editorial"
     },
     "hero": {
-      "src": "/projects/lola-frita/cover.jpg",
+      "src": "/projects/chatgpt-image-31-de-ago-de-2026-060105-1.png",
       "alt": "Jheferson Rosa na mesa da Lola Frita em feira editorial",
       "fit": "contain"
     },
@@ -315,7 +315,7 @@
     "hero": {
       "src": "/projects/lg-40-anos/hero.jpg",
       "alt": "Comunicação dos 40 anos da LG lugar de gente",
-      "fit": "cover"
+      "fit": "contain"
     },
     "gallery": {
       "label": "Sistema visual",
