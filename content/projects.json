@@ -14,19 +14,19 @@
     "hero": {
       "src": "/projects/convencao-lg-2025/cover.jpg",
       "alt": "Palco da Convenção LG 2025",
-      "fit": "contain"
+      "fit": "cover"
     },
     "gallery": {
       "label": "Sistema visual",
       "heading": "Da ideia central aos seus desdobramentos.",
       "items": [
         {
-          "src": "/projects/logo.png",
-          "alt": "logo"
-        },
-        {
           "src": "/projects/convencao-lg-2025/gallery/mockup.jpg",
           "alt": "telão"
+        },
+        {
+          "src": "/projects/logo.png",
+          "alt": "logo"
         },
         {
           "src": "/projects/convencao-lg-2025/gallery/stage.jpg",
@@ -55,7 +55,7 @@
         "kind": "embed",
         "layout": "featured",
         "title": "Logo Motion",
-        "src": "https://www.youtube-nocookie.com/embed/QrJVfi0FfZQ",
+        "src": "https://www.youtube.com/watch?v=ItUYGZR9p74",
         "label": "audiovisual"
       },
       {
@@ -66,7 +66,6 @@
         "label": "audiovisual"
       }
     ],
-    "collections": [],
     "displayOrder": 1,
     "status": "published",
     "featuredOnHome": true,
@@ -339,7 +338,6 @@
         "note": "Versão alternativa do documentário. A produção integral tem 19 minutos e contém material confidencial."
       }
     ],
-    "collections": [],
     "displayOrder": 3,
     "status": "published",
     "featuredOnHome": true,
@@ -424,8 +422,6 @@
         }
       ]
     },
-    "videos": [],
-    "collections": [],
     "displayOrder": 4,
     "status": "published",
     "featuredOnHome": true,
@@ -482,8 +478,6 @@
         }
       ]
     },
-    "videos": [],
-    "collections": [],
     "displayOrder": 5,
     "status": "published",
     "featuredOnHome": true,
@@ -528,8 +522,6 @@
         }
       ]
     },
-    "videos": [],
-    "collections": [],
     "displayOrder": 6,
     "status": "published",
     "featuredOnHome": true,
@@ -580,7 +572,6 @@
         "heading": "A marca também existe em movimento."
       }
     ],
-    "collections": [],
     "displayOrder": 7,
     "status": "published",
     "featuredOnHome": true,
