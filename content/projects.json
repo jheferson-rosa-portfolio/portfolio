@@ -57,7 +57,7 @@
     ],
     "displayOrder": 1,
     "status": "published",
-    "featuredOnHome": false,
+    "featuredOnHome": true,
     "cardLayout": "standard"
   },
   {
@@ -88,7 +88,8 @@
         {
           "src": "/projects/lola-frita/gallery/fair-detail.jpg",
           "alt": "Publicações da Lola Frita em circulação"
-        }
+        },
+        {}
       ]
     },
     "videos": [
@@ -253,7 +254,7 @@
             "number": "15",
             "title": "Uma vida simples",
             "image": {
-              "src": "/projects/lola-frita/catalog/15.jpg",
+              "src": "/projects/lola-frita/catalog/1.jpg",
               "alt": "Uma vida simples"
             }
           },
@@ -261,7 +262,7 @@
             "number": "16",
             "title": "O passado assedia",
             "image": {
-              "src": "/projects/lola-frita/catalog/16.jpg",
+              "src": "/projects/1.jpg",
               "alt": "O passado assedia"
             }
           },
@@ -286,7 +287,7 @@
     ],
     "displayOrder": 2,
     "status": "published",
-    "featuredOnHome": false,
+    "featuredOnHome": true,
     "cardLayout": "standard"
   },
   {
@@ -294,17 +295,17 @@
     "slug": "lg-40-anos",
     "year": "2025",
     "category": "Branding, audiovisual & comunicação interna",
-    "role": "Direção criativa, identidade visual, edição e sonoplastia",
-    "support": "Digital, audiovisual e identidade para evento",
-    "summary": "Uma identidade comemorativa desdobrada em comunicação interna, série de entrevistas e um documentário sobre a história da companhia.",
+    "role": "direção criativa, identidade visual, edição e sonoplastia",
+    "support": "digital, audiovisual e identidade para evento",
+    "summary": "uma identidade comemorativa desdobrada em comunicação interna, série de entrevistas e um documentário sobre a história da companhia.",
     "cover": {
       "src": "/projects/lg-40-anos/cover.jpg",
-      "alt": "Identidade comemorativa de 40 anos da LG lugar de gente"
+      "alt": "identidade comemorativa de 40 anos da LG lugar de gente"
     },
     "hero": {
       "src": "/projects/lg-40-anos/hero.jpg",
       "alt": "Comunicação dos 40 anos da LG lugar de gente",
-      "fit": "contain"
+      "fit": "cover"
     },
     "gallery": {
       "label": "Sistema visual",
@@ -341,37 +342,41 @@
     "support": "Digital, Articulate Storyline, audiovisual e artigos",
     "summary": "Programa de conscientização sobre segurança e privacidade estruturado como uma narrativa gamificada, com identidade própria, recompensas e avaliações dinâmicas no Articulate Storyline.",
     "cover": {
-      "src": "/projects/spi-2025/cover.jpg",
+      "src": "/projects/spi-2025/gallery/14.jpg",
       "alt": "Continentes Seguros — SPI 2025"
     },
     "hero": {
-      "src": "/projects/spi-2025/gallery/14.jpg",
+      "src": "/projects/spi-2025/gallery/02.jpg",
       "alt": "Continentes Seguros — SPI 2025",
-      "fit": "contain"
+      "fit": "cover"
     },
     "gallery": {
-      "label": "Experiência e comunicação",
-      "heading": "Uma narrativa distribuída por diferentes pontos de contato.",
+      "label": "experiência e comunicação",
+      "heading": "uma narrativa distribuída por diferentes pontos de contato.",
       "items": [
-        {
-          "src": "/projects/spi-2025/gallery/01.jpg",
-          "alt": "Peça de lançamento do SPI 2025"
-        },
         {
           "src": "/projects/spi-2025/gallery/02.jpg",
           "alt": "Banner do SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/13.jpg",
+          "alt": "Imagem de artigo do SPI 2025"
         },
         {
           "src": "/projects/spi-2025/gallery/03.jpg",
           "alt": "Tela 1 do e-learning SPI 2025"
         },
         {
-          "src": "/projects/spi-2025/gallery/04.jpg",
-          "alt": "Tela 2 do e-learning SPI 2025"
-        },
-        {
           "src": "/projects/spi-2025/gallery/05.jpg",
           "alt": "Tela 3 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/12.jpg",
+          "alt": "Tela 10 do e-learning SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/04.jpg",
+          "alt": "Tela 2 do e-learning SPI 2025"
         },
         {
           "src": "/projects/spi-2025/gallery/06.jpg",
@@ -398,16 +403,12 @@
           "alt": "Tela 9 do e-learning SPI 2025"
         },
         {
-          "src": "/projects/spi-2025/gallery/12.jpg",
-          "alt": "Tela 10 do e-learning SPI 2025"
-        },
-        {
-          "src": "/projects/spi-2025/gallery/13.jpg",
-          "alt": "Imagem de artigo do SPI 2025"
-        },
-        {
           "src": "/projects/spi-2025/gallery/14.jpg",
           "alt": "Conteúdo informativo do SPI 2025"
+        },
+        {
+          "src": "/projects/spi-2025/gallery/01.jpg",
+          "alt": "Peça de lançamento do SPI 2025"
         }
       ]
     },
@@ -420,12 +421,12 @@
     "title": "SPI 2026",
     "slug": "spi-2026",
     "year": "2026",
-    "category": "Design instrucional, branding & audiovisual",
-    "role": "Direção criativa, identidade, storytelling e e-learning",
-    "support": "Digital, e-learning, audiovisual e comunicação interna",
-    "summary": "Segunda edição do programa de conscientização sobre segurança e privacidade, apresentada como um novo ciclo visual e narrativo da experiência.",
+    "category": "design instrucional, branding & audiovisual",
+    "role": "direção criativa, identidade, storytelling e e-learning",
+    "support": "digital, e-learning, audiovisual e comunicação interna",
+    "summary": "edição de 2026 do programa de conscientização sobre segurança e privacidade, apresentada como um novo ciclo visual e narrativo da experiência.",
     "cover": {
-      "src": "/projects/spi-2026/cover.jpg",
+      "src": "/projects/spi-2026/gallery/03.jpg",
       "alt": "Identidade do SPI 2026"
     },
     "hero": {
@@ -434,20 +435,12 @@
       "fit": "cover"
     },
     "gallery": {
-      "label": "Experiência e comunicação",
-      "heading": "Um novo ciclo visual para o programa.",
+      "label": "experiência e comunicação",
+      "heading": "um novo ciclo visual para o programa.",
       "items": [
-        {
-          "src": "/projects/spi-2026/gallery/01.jpg",
-          "alt": "E-mail de lançamento do SPI 2026"
-        },
         {
           "src": "/projects/spi-2026/gallery/02.jpg",
           "alt": "Banner interno do SPI 2026"
-        },
-        {
-          "src": "/projects/spi-2026/gallery/03.jpg",
-          "alt": "Banner principal do SPI 2026"
         },
         {
           "src": "/projects/spi-2026/gallery/04.jpg",
@@ -458,18 +451,22 @@
           "alt": "Comunicação interna do SPI 2026"
         },
         {
+          "src": "/projects/spi-2026/gallery/07.jpg",
+          "alt": "Imagem principal do SPI 2026"
+        },
+        {
           "src": "/projects/spi-2026/gallery/06.jpg",
           "alt": "Peça quadrada do SPI 2026"
         },
         {
-          "src": "/projects/spi-2026/gallery/07.jpg",
-          "alt": "Imagem principal do SPI 2026"
+          "src": "/projects/spi-2026/gallery/01.jpg",
+          "alt": "E-mail de lançamento do SPI 2026"
         }
       ]
     },
     "displayOrder": 5,
     "status": "published",
-    "featuredOnHome": true,
+    "featuredOnHome": false,
     "cardLayout": "standard"
   },
   {
@@ -494,20 +491,36 @@
       "heading": "Da cultura aos seus sinais visuais.",
       "items": [
         {
+          "src": "/projects/deck-de-cultura/gallery/timeline.jpg",
+          "alt": "impacto da LG"
+        },
+        {
+          "src": "/projects/artboard-5.png",
+          "alt": "timeline"
+        },
+        {
           "src": "/projects/deck-de-cultura/gallery/values.jpg",
-          "alt": "Sistema dos valores corporativos"
+          "alt": "nossos valores"
         },
         {
           "src": "/projects/deck-de-cultura/gallery/value-1.jpg",
-          "alt": "Marca de valor corporativo"
+          "alt": "nossos valores"
+        },
+        {
+          "src": "/projects/artboard-12.png",
+          "alt": "nossos valores"
+        },
+        {
+          "src": "/projects/deck-de-cultura/gallery/artboard-13.png",
+          "alt": "nossos valores"
         },
         {
           "src": "/projects/deck-de-cultura/gallery/value-2.jpg",
-          "alt": "Marca de valor corporativo"
+          "alt": "nossos valores"
         },
         {
-          "src": "/projects/deck-de-cultura/gallery/timeline.jpg",
-          "alt": "Linha do tempo da empresa"
+          "src": "/projects/deck-de-cultura/gallery/artboard-16.png",
+          "alt": "encerramento"
         }
       ]
     },
@@ -520,13 +533,13 @@
     "title": "Bardo — Full Narrative",
     "slug": "bardo",
     "year": "2025—26",
-    "category": "Branding, design editorial & motion",
-    "role": "Direção criativa, identidade visual e motion design",
-    "support": "Digital, editorial e motion",
-    "summary": "Identidade para uma frente de serviços editoriais, articulando sistema visual, comunicação e animação de marca a partir do conceito full narrative.",
+    "category": "branding, design editorial & motion",
+    "role": "direção criativa, identidade visual e motion design",
+    "support": "digital, editorial e motion",
+    "summary": "identidade para uma frente de serviços editoriais, articulando sistema visual, comunicação e animação de marca a partir do conceito full narrative.",
     "cover": {
       "src": "/projects/bardo/cover.jpg",
-      "alt": "Identidade visual da Bardo"
+      "alt": "identidade visual da Bardo"
     },
     "hero": {
       "src": "/projects/bardo/cover.jpg",
@@ -535,7 +548,7 @@
     },
     "gallery": {
       "label": "Sistema visual",
-      "heading": "Da ideia central aos seus desdobramentos.",
+      "heading": "da ideia central aos seus desdobramentos.",
       "items": [
         {
           "src": "/projects/bardo/gallery/artboard-1.jpg",
