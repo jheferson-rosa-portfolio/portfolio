@@ -57,8 +57,8 @@
     ],
     "displayOrder": 1,
     "status": "published",
-    "featuredOnHome": true,
-    "cardLayout": "wide"
+    "featuredOnHome": false,
+    "cardLayout": "standard"
   },
   {
     "title": "Lola Frita",
@@ -286,8 +286,8 @@
     ],
     "displayOrder": 2,
     "status": "published",
-    "featuredOnHome": true,
-    "cardLayout": "wide"
+    "featuredOnHome": false,
+    "cardLayout": "standard"
   },
   {
     "title": "40 anos LG lugar de gente",
