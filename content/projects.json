@@ -18,15 +18,11 @@
     },
     "gallery": {
       "label": "Sistema visual",
-      "heading": "Da ideia central aos seus desdobramentos.",
+      "heading": "da ideia central aos seus desdobramentos.",
       "items": [
         {
           "src": "/projects/convencao-lg-2025/gallery/mockup.jpg",
           "alt": "telão"
-        },
-        {
-          "src": "/projects/logo.png",
-          "alt": "logo"
         },
         {
           "src": "/projects/convencao-lg-2025/gallery/stage.jpg",
