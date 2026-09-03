@@ -50,7 +50,11 @@ export type Publication = {
   displayOrder: number;
 };
 
-const projectRecords = rawProjects as unknown as Project[];
+const projectRecords = (rawProjects as unknown as Project[]).map((project) => ({
+  ...project,
+  videos: project.videos ?? [],
+  collections: project.collections ?? [],
+}));
 
 function validateProjects(records: Project[]) {
   const slugs = new Set<string>();

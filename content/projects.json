@@ -55,7 +55,7 @@
         "kind": "embed",
         "layout": "featured",
         "title": "Logo Motion",
-        "src": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ItUYGZR9p74?si=rTTrHmGDPxL5aXan\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "src": "https://www.youtube-nocookie.com/embed/QrJVfi0FfZQ",
         "label": "audiovisual"
       },
       {
@@ -66,6 +66,7 @@
         "label": "audiovisual"
       }
     ],
+    "collections": [],
     "displayOrder": 1,
     "status": "published",
     "featuredOnHome": true,
@@ -338,6 +339,7 @@
         "note": "Versão alternativa do documentário. A produção integral tem 19 minutos e contém material confidencial."
       }
     ],
+    "collections": [],
     "displayOrder": 3,
     "status": "published",
     "featuredOnHome": true,
@@ -422,6 +424,8 @@
         }
       ]
     },
+    "videos": [],
+    "collections": [],
     "displayOrder": 4,
     "status": "published",
     "featuredOnHome": true,
@@ -478,6 +482,8 @@
         }
       ]
     },
+    "videos": [],
+    "collections": [],
     "displayOrder": 5,
     "status": "published",
     "featuredOnHome": true,
@@ -522,6 +528,8 @@
         }
       ]
     },
+    "videos": [],
+    "collections": [],
     "displayOrder": 6,
     "status": "published",
     "featuredOnHome": true,
@@ -572,6 +580,7 @@
         "heading": "A marca também existe em movimento."
       }
     ],
+    "collections": [],
     "displayOrder": 7,
     "status": "published",
     "featuredOnHome": true,

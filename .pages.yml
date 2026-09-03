@@ -165,6 +165,7 @@ content:
         label: Vídeos
         type: block
         blockKey: kind
+        default: []
         list:
           collapsible:
             collapsed: true
@@ -193,7 +194,10 @@ content:
                 label: URL de incorporação
                 type: string
                 required: true
-                description: "Use a URL /embed do YouTube ou de outro provedor."
+                pattern:
+                  regex: '^https?://[^\s<>\"]+$'
+                  message: "Cole somente a URL de incorporação, sem o código <iframe>."
+                description: "Use apenas a URL /embed do YouTube ou de outro provedor, sem tags HTML."
               - name: label
                 label: Editoria
                 type: string
@@ -245,6 +249,7 @@ content:
         label: Coleções
         type: block
         blockKey: type
+        default: []
         list:
           collapsible:
             collapsed: true

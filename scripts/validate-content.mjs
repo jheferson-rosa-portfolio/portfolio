@@ -7,7 +7,8 @@ const publications = JSON.parse(readFileSync(resolve(root, 'content/publications
 const errors = [];
 const slugs = new Set();
 const orders = new Set();
-const requiredFields = ['title', 'slug', 'year', 'category', 'role', 'summary', 'cover', 'gallery', 'videos', 'displayOrder', 'status', 'featuredOnHome'];
+const requiredFields = ['title', 'slug', 'year', 'category', 'role', 'summary', 'cover', 'gallery', 'displayOrder', 'status', 'featuredOnHome'];
+const embedUrlPattern = /^https?:\/\/[^\s<>\"]+$/;
 
 function checkLocalAsset(src, context) {
   if (!src || /^https?:\/\//.test(src)) return;
@@ -29,7 +30,12 @@ for (const project of projects) {
   checkLocalAsset(project.cover?.src, `${context}.cover`);
   checkLocalAsset(project.hero?.src, `${context}.hero`);
   for (const item of project.gallery?.items || []) checkLocalAsset(item.src, `${context}.gallery`);
-  for (const video of project.videos || []) checkLocalAsset(video.src, `${context}.videos`);
+  for (const video of project.videos || []) {
+    if (video.kind === 'embed' && !embedUrlPattern.test(video.src || '')) {
+      errors.push(`${context}.videos: src de vídeo incorporado deve conter somente uma URL`);
+    }
+    checkLocalAsset(video.src, `${context}.videos`);
+  }
   for (const collection of project.collections || []) {
     for (const item of collection.items || []) checkLocalAsset(item.image?.src, `${context}.collections`);
   }
