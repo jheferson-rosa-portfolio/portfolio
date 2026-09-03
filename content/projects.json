@@ -82,14 +82,17 @@
       "heading": "Publicar também é criar encontros.",
       "items": [
         {
+          "src": "/projects/e500e818-995a-4c1e-88a3-eaf1c44fcf96.jpg",
+          "alt": "Presença em feiras"
+        },
+        {
           "src": "/projects/lola-frita/gallery/fair.jpg",
           "alt": "Lola Frita em feira de publicação independente"
         },
         {
           "src": "/projects/lola-frita/gallery/fair-detail.jpg",
           "alt": "Publicações da Lola Frita em circulação"
-        },
-        {}
+        }
       ]
     },
     "videos": [
@@ -270,7 +273,7 @@
             "number": "17",
             "title": "Kuarup",
             "image": {
-              "src": "/projects/lola-frita/catalog/17.jpg",
+              "src": "/projects/whatsapp-image-2026-08-31-at-180939.jpeg",
               "alt": "Kuarup"
             }
           },
